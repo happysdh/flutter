@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - takefluttermodule (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../take_flutter_module/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../take_flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
+  - takefluttermodule (from `../take_flutter_module/.ios/Flutter`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../take_flutter_module/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../take_flutter_module/.ios/Flutter/FlutterPluginRegistrant"
+  takefluttermodule:
+    :path: "../take_flutter_module/.ios/Flutter"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  FlutterPluginRegistrant: d59dd07dd90e9c6430996073575a5bd1ea19677e
+  takefluttermodule: ca2218901c27c80e55c83fe3f36dd1144a3eb467
+
+PODFILE CHECKSUM: 6d220c082dbabd17be3916c8ed175ffece26549d
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,11 @@
+rootProject.name='AndroidFultterApp'
+include ':app'
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+  settingsDir,
+  '../take_flutter_module/.android/include_flutter.groovy'
+))
+
+include ':take_flutter_module'
+project(':take_flutter_module').projectDir = new File('../take_flutter_module')
+
